@@ -1,2 +1,2 @@
 def main() -> None:
-    print("Hello from day5!")
+    print("Hello from resume parser!")
