@@ -50,7 +50,11 @@ The script makes one model request to parse the job description and two requests
 git clone https://github.com/Raed-Tanwar/Resume-Parser.git
 cd Resume-Parser
 uv sync
+uv add pypdf python-docx
 ```
+
+- `pypdf` extracts text from PDF resumes.
+- `python-docx` extracts text from Word (`.docx`) resumes.
 
 ### 2. Configure your API key
 
